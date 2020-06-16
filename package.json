@@ -1,0 +1,13 @@
+{
+  "name": "manuelpage",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@meeg/gridsome-source-kentico-kontent": "^0.4.1",
+    "gridsome": "^0.7.0"
+  }
+}
