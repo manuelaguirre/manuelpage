@@ -5,15 +5,15 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<g-link href="index.html" class="logo">
-									<span class="symbol"><g-image src="~/assets/images/logo.svg" alt="" /></span><span class="title">Manuel Aguirre</span>
+								<g-link to="/" class="logo">
+									<span class="symbol"><g-image src="~/assets/images/logo.svg" alt="" /></span><span class="title">{{ $static.metadata.siteName }}</span>
 								</g-link>
 
 							<!-- Nav -->
 								<nav>
 									<ul>
-										<li><g-link to="/">{{ $static.metadata.siteName }}</g-link></li>
-                    <li><g-link to="/about">About Me</g-link></li>
+										<li><g-link to="/">Opus</g-link></li>
+                    <li><g-link to="/about">Blog</g-link></li>
 									</ul>
 								</nav>
 

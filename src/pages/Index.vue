@@ -3,29 +3,12 @@
     <!-- wrapper -->
   <div id="wrapper">
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
-
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Generic Page</h1>
-							<span class="image main"><g-image src="~/assets/images/pic13.jpg" alt="" /></span>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-						<section v-for="edge in $page.results.edges" :key="edge.node.id">
-									<h2>{{ edge.node.title }}</h2>
-									<div class="poem" v-html="edge.node.body" style="white-space: pre-line">
-									</div>									
-								</section>
+							<h1>Nahuel Klahn</h1>
+							<span class="image main"><g-image src="~/assets/images/piccover.jpg" alt="" /></span>
+							<p>{{ $page.results.edges[0].summary.body }}</p>
 						</div>
 						<section class="tiles">
 							<article class="style1">
@@ -62,15 +45,15 @@
 
 <page-query>
 query{
-  results:allPoem{
+	results:allSummary(limit:1){
     edges{
-      node{
+      summary:node{
         name
-        title
         body
       }
     }
   }
+#     edges{
 }
 </page-query>
 
