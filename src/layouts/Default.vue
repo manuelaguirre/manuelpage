@@ -13,7 +13,7 @@
 								<nav>
 									<ul>
 										<li><g-link to="/opus">Opus</g-link></li>
-                    <li><g-link to="/about">Blog</g-link></li>
+                    <li><g-link to="/blog">Blog</g-link></li>
 									</ul>
 								</nav>
 

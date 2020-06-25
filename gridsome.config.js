@@ -7,6 +7,9 @@
 module.exports = {
   siteName: 'Nahuel Klahn',
   runtimeCompiler: true,
+  templates: {
+    TaxonomyPoemas: '/poemas/:name',
+  },
   plugins: [
     {
       use: '@meeg/gridsome-source-kentico-kontent',
