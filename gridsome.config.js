@@ -9,6 +9,7 @@ module.exports = {
   runtimeCompiler: true,
   templates: {
     TaxonomyPoemas: '/poemas/:name',
+    Poem: '/poemas/:taxonomy/:slug',
   },
   plugins: [
     {

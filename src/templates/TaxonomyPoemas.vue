@@ -22,7 +22,8 @@ query ($id: ID!) {
           ... on Poem {
             id
             title
-            date
+            path
+            
           }
         }
       }

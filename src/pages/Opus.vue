@@ -10,7 +10,7 @@
                 <span class="image">
                   <g-image src="~/assets/images/picblack.jpg" alt="" />
                 </span>
-                <a href="generic.html">
+                <a href="/poemas/blanco">
                   <h2>Blanco</h2>
                   <div class="content">
                     <p>Dulce, frío y lechoso</p>
@@ -21,7 +21,7 @@
                 <span class="image">
                   <g-image src="~/assets/images/picfog.jpg" alt="" />
                 </span>
-                <a href="generic.html">
+                <a href="poemas/negro">
                   <h2>Negro</h2>
                   <div class="content">
                     <p>Ónix de mis meditaciones</p>
