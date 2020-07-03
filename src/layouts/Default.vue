@@ -6,7 +6,7 @@
 
 							<!-- Logo -->
 								<g-link to="/" class="logo">
-									<span class="symbol"><g-image src="~/assets/images/logo.svg" alt="" /></span><span class="title">{{ $static.metadata.siteName }}</span>
+									<span class="symbol"><g-image src="~/assets/images/nk.svg" alt="" /></span>
 								</g-link>
 
 							<!-- Nav -->

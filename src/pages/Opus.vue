@@ -31,9 +31,9 @@
             </section>
             <h2>Relatos</h2>
             <section class="tiles">
-              <article class="style2">
+              <article class="style6">
                 <span class="image">
-                  <g-image src="~/assets/images/picblack.jpg" alt="" />
+                  <g-image src="~/assets/images/picescalera.jpg" alt="" />
                 </span>
                 <a href="generic.html">
                   <h2>Camino</h2>
@@ -44,7 +44,7 @@
               </article>
               <article class="style3">
                 <span class="image">
-                  <g-image src="~/assets/images/picfog.jpg" alt="" />
+                  <g-image src="~/assets/images/picmonoblock.jpg" alt="" />
                 </span>
                 <a href="generic.html">
                   <h2>Constitución</h2>

@@ -6,7 +6,7 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Nahuel Klahn</h1>
+							<h1>Bienvenida</h1>
 							<span class="image main"><g-image src="~/assets/images/piccover.jpg" alt="Retrato en lápiz"/></span>
 							<p>{{ $page.results.edges[0].summary.body }}</p>
 						</div>
@@ -33,7 +33,7 @@ query{
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   }
 }
 </script>
