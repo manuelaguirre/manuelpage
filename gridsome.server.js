@@ -10,7 +10,6 @@ module.exports = function (api) {
     const poems = addCollection('Poem')
     const taxonomies = addCollection('TaxonomyPoemas')
   
-    // makes all ids in the `taxonomies` field reference a
     poems.addReference('taxonomies', 'TaxonomyPoemas')
     
   })

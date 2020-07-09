@@ -29,27 +29,16 @@
                 </a>
               </article>
             </section>
-            <h2>Relatos</h2>
+            <h2>Etcétera</h2>
             <section class="tiles">
-              <article class="style6">
-                <span class="image">
-                  <g-image src="~/assets/images/picescalera.jpg" alt="" />
-                </span>
-                <a href="generic.html">
-                  <h2>Camino</h2>
-                  <div class="content">
-                    <p>Polvo en las chancletas</p>
-                  </div>
-                </a>
-              </article>
               <article class="style3">
                 <span class="image">
                   <g-image src="~/assets/images/picmonoblock.jpg" alt="" />
                 </span>
-                <a href="generic.html">
-                  <h2>Constitución</h2>
+                <a href="relatos">
+                  <h2>Relatos</h2>
                   <div class="content">
-                    <p>La ciudad viva</p>
+                    <p>Desde consti</p>
                   </div>
                 </a>
               </article>

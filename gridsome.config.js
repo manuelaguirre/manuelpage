@@ -10,6 +10,7 @@ module.exports = {
   templates: {
     TaxonomyPoemas: '/poemas/:name',
     Poem: '/poemas/:taxonomy/:slug',
+    Relato: '/relatos/:slug',
   },
   plugins: [
     {
