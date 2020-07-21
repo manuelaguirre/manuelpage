@@ -22,7 +22,16 @@ export default {
     return {
       title: this.$page.relato.title + " - Nahuel Klahn"
       }
-  }
+  },
+  computed: {
+    hasNextPage() {
+      //TODO: pagination for relato
+      return  
+    },
+    hasPreviousPage() {
+      return
+    }
+  },
 }
 
 </script>

@@ -1864,6 +1864,15 @@ input, select, textarea {
 				background-color: rgba(242, 132, 158, 0.1);
 			}
 
+/* Pager */
+
+	.pager {
+		margin: 1em auto 3em;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+
 /* List */
 
 	ol {

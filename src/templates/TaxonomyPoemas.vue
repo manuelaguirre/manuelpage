@@ -16,7 +16,7 @@
 query ($id: ID!) {
   taxonomyPoemas(id: $id) {
     name
-    belongsTo {
+    belongsTo(sortBy:"position") {
       edges {
         node {
           ... on Poem {
