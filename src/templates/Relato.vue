@@ -1,7 +1,7 @@
 <template>
 	<Layout>
 		<h1>{{ $page.relato.title }}</h1>
-    <article style="white-space: pre-wrap;">{{ $page.relato.body}}</article>
+    <article style="white-space: pre-wrap;">{{ $page.relato.body }}</article>
     <hr />
 	</Layout>
 </template>

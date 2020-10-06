@@ -13,7 +13,6 @@
                 <a href="/poemas/blanco">
                   <h2>Blanco</h2>
                   <div class="content">
-                    <p>Dulce, frío y lechoso</p>
                   </div>
                 </a>
               </article>
@@ -24,7 +23,7 @@
                 <a href="poemas/negro">
                   <h2>Negro</h2>
                   <div class="content">
-                    <p>Ónix de mis meditaciones</p>
+                    <p></p>
                   </div>
                 </a>
               </article>
@@ -38,7 +37,6 @@
                 <a href="relatos">
                   <h2>Relatos</h2>
                   <div class="content">
-                    <p>Desde consti</p>
                   </div>
                 </a>
               </article>

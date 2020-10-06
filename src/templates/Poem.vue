@@ -4,9 +4,9 @@
     <article style="white-space: pre-wrap;">{{ $page.poem.body }}</article>
     <hr />
     <div class="pager">
-      <g-link :to="$page.poem.taxonomy[0].belongsTo.edges[1].previous.path">Anterior</g-link>
+      <g-link v-show="previousPage" :to="$page.poem.taxonomy[0].belongsTo.edges[1].previous.path">Anterior</g-link>
       <g-link :to="$page.poem.taxonomy[0].path">Índice</g-link>
-      <g-link class="next-link" :to="$page.poem.taxonomy[0].belongsTo.edges[0].next.path">Siguiente</g-link>
+      <g-link v-show="nextPage" class="next-link" :to="$page.poem.taxonomy[0].belongsTo.edges[0].next.path">Siguiente</g-link>
     </div>
 	</Layout>
 </template>
@@ -47,11 +47,13 @@ export default {
       }
   },
   computed: {
-    hasNextPage() {
-      return this.$route.path === this.$page.poem.taxonomy[0].belongsTo.edges[0].next.path 
+    nextPage() {
+      return (this.$page.poem.taxonomy[0].belongsTo.edges[0] ? this.$route.path === this.$page.poem.taxonomy[0].belongsTo.edges[0].next.path 
+      : false) 
     },
-    hasPreviousPage() {
-      return this.$route.path === this.$page.poem.taxonomy[0].belongsTo.edges[1].previous.path 
+    previousPage() {
+      return (this.$page.poem.taxonomy[0].belongsTo.edges[1] ? this.$route.path === this.$page.poem.taxonomy[0].belongsTo.edges[1].previous.path
+      : false)
     }
   },
 }
